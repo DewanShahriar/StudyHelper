@@ -28,11 +28,9 @@ class Site extends CI_Controller {
     //home page view
 	public function index()
 	{
+		
 		$user_id = $_SESSION['user_id'];
 		
-		$data['title']   = 'home';
- 		$data['content'] = 'newsfeed';
-
  		$all_post_list = $this->SiteModel->get_all_posts();
 
  		$post_list = array();
@@ -63,6 +61,9 @@ class Site extends CI_Controller {
         }
 
         $data['post_list'] = json_decode(json_encode($post_list));
+
+        $data['title']   = 'home';
+ 		$data['content'] = 'newsfeed';
 
 		$this->load->view('home', $data);
 	}
