@@ -60,15 +60,17 @@
                     <p><?php echo $list->content;?></p>
                   </div>
                   <div class="line-divider"></div>
+                  <div id="comment_start<?php echo $list->id;?>">
                   <?php foreach($list->comments as $key2=>$comment) {?>
                   <div class="post-comment">
                     <img src="<?php echo base_url($comment->profile_photo);?>" alt="" class="profile-photo-sm" />
                     <p><a href="timeline.html" class="profile-link"><?php echo $comment->first_name;?></a> <?php echo $comment->comment_content;?> </p>
                   </div>
                 <?php }?>
+                  </div>
                   <div class="post-comment">
                     <img src="<?php echo base_url() . $_SESSION['user_profile_photo']; ?>" alt="" class="profile-photo-sm" />
-                    <input type="text" class="form-control" placeholder="Post a comment">
+                    <input type="text" id="input<?php echo $list->id;?>" class="form-control" placeholder="Post a comment" onkeypress="comment_insert(event, <?php echo $list->id;?>, this.value)">
                   </div>
                 </div>
               </div>
@@ -159,6 +161,30 @@
           
         }
     });
+    
+  }
+</script>
+
+<script type="text/javascript">
+  function comment_insert(event, post_id, comment_content) {
+
+    var list = '';
+    console.log(post_id);
+    if(event.which == 13 && comment_content != ''){
+      console.log(comment_content);
+      $.ajax({
+          type: "POST",
+          url: '<?php echo base_url() . "site/save-comment"; ?>',
+          data: {post_id: post_id, comment_content: comment_content},
+          success: function (response) {
+            var data = JSON.parse(response);
+            console.log(data);
+            list += '<div class="post-comment"><img src="<?php echo base_url();?>'+data.profile_photo+'" alt="" class="profile-photo-sm" /><p><a href="timeline.html" class="profile-link">'+data.first_name+'</a> '+data.comment_content+' </p></div>';
+            $('#comment_start'+post_id).append(list);
+            $('#input'+post_id).val('');
+          }
+      });
+    }
     
   }
 </script>

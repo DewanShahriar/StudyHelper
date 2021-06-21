@@ -319,4 +319,37 @@ class Site extends CI_Controller {
 	    echo json_encode($res);
     }
 
+    //ajax call comment insert
+	public function save_comment()
+    {
+
+	    $user_id = $_SESSION['user_id'];
+	    $post_id = $this->input->post('post_id');
+	    $comment_content = $this->input->post('comment_content');
+
+	    $created_at = date('Y-m-d H:i:s');
+
+	    $comment_data['post_id']         = $post_id;
+	    $comment_data['user_id']         = $user_id;
+	    $comment_data['comment_content'] = $comment_content;
+	    $comment_data['created_at']      = $created_at;
+
+	    
+
+	    $add_comment  = $this->db->insert('post_comments', $comment_data);
+	    $last_comment = $this->db->insert_id();
+
+	    $res = array();
+
+	    if($add_comment){
+	    	$res = $this->SiteModel->get_last_insert_comment($last_comment);
+	    }
+
+	    // echo "<pre>";
+	    // print_r($res);
+	    // exit;
+
+	    echo json_encode($res);
+    }
+
 }
