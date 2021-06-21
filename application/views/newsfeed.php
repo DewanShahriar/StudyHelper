@@ -61,7 +61,7 @@
                   </div>
                   <div class="line-divider"></div>
                   <div id="comment_start<?php echo $list->id;?>">
-                  <?php foreach($list->comments as $key2=>$comment) {?>
+                  <?php foreach(array_reverse($list->comments) as $key2=>$comment) {?>
                   <div class="post-comment">
                     <img src="<?php echo base_url($comment->profile_photo);?>" alt="" class="profile-photo-sm" />
                     <p><a href="timeline.html" class="profile-link"><?php echo $comment->first_name;?></a> <?php echo $comment->comment_content;?> </p>

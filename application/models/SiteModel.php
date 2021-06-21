@@ -106,10 +106,13 @@
 				->from('post_comments')
 				->join('register_users', 'register_users.id = post_comments.user_id', 'left')
 				->where('post_comments.post_id', $post_id)
-				->order_by('post_comments.created_at', 'ASC')
-				->group_by('id');
+				->order_by('post_comments.id', 'DESC')
+				->group_by('post_comments.id');
 				
 			$query = $this->db->get();
+			// echo "<pre>";
+	  //       print_r($query->num_rows());
+	  //       exit;
 
 			if ($query->num_rows() > 0) {
 
