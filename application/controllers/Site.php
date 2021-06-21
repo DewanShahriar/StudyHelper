@@ -54,6 +54,7 @@ class Site extends CI_Controller {
             $temppost['is_like']       = $this->db->query('select * from post_likes 
 	                                    where post_id="'.$value->id.'" 
 	                                    and user_id = "'.$user_id.'"')->num_rows();
+            $temppost['comments']      = $this->SiteModel->get_comments($value->id);
 
             array_push($post_list, $temppost);
  
@@ -61,6 +62,10 @@ class Site extends CI_Controller {
         }
 
         $data['post_list'] = json_decode(json_encode($post_list));
+
+        // echo "<pre>";
+        // print_r($data['post_list']);
+        // exit;
 
         $data['title']   = 'home';
  		$data['content'] = 'newsfeed';

@@ -60,6 +60,12 @@
                     <p><?php echo $list->content;?></p>
                   </div>
                   <div class="line-divider"></div>
+                  <?php foreach($list->comments as $key2=>$comment) {?>
+                  <div class="post-comment">
+                    <img src="<?php echo base_url($comment->profile_photo);?>" alt="" class="profile-photo-sm" />
+                    <p><a href="timeline.html" class="profile-link"><?php echo $comment->first_name;?></a> <?php echo $comment->comment_content;?> </p>
+                  </div>
+                <?php }?>
                   <div class="post-comment">
                     <img src="<?php echo base_url() . $_SESSION['user_profile_photo']; ?>" alt="" class="profile-photo-sm" />
                     <input type="text" class="form-control" placeholder="Post a comment">

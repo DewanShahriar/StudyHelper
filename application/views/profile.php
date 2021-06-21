@@ -81,7 +81,7 @@
       <!-- Timeline
       ================================================= -->
       <div class="timeline">
-        <div class="timeline-cover">
+        <div class="timeline-cover" style="background: url('<?php echo base_url();?>assets/images/covers/1.jpg') no-repeat;">
 
           <!--Timeline Menu for Large Screens-->
           <div class="timeline-nav-bar hidden-sm hidden-xs">

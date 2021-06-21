@@ -97,6 +97,29 @@
 
 		} 
 
+		public function get_comments($post_id)
+		{
+			$this->db->select('register_users.id, register_users.first_name, register_users.last_name, register_users.user_name, register_users.profile_photo, post_comments.comment_content, post_comments.created_at, post_comments.updated_at')
+
+				->limit('5')
+				->from('post_comments')
+				->join('register_users', 'register_users.id = post_comments.user_id', 'left')
+				->where('post_id', $post_id)
+				->order_by('created_at', 'DESC')
+				->group_by('id');
+				
+			$query = $this->db->get();
+
+			if ($query->num_rows() > 0) {
+
+				return $query->result();
+
+			} else {
+
+				return array();
+			}
+		}
+
 		
 
 		
