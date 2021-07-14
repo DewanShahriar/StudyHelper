@@ -40,7 +40,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?php echo base_url()?>home"><img src="<?php echo base_url();?>assets/images/logo-black.png" alt="logo" /></a>
+            <a class="navbar-brand" href="<?php echo base_url()?>home"><h4>Study Assistance</h4></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -88,9 +88,9 @@
             <div class="row">
               <div class="col-md-3">
                 <div class="profile-info">
-                  <img src="<?php echo base_url();?>assets/images/users/user-1.jpg" alt="" class="img-responsive profile-photo" />
-                  <h3>Sarah Cruiz</h3>
-                  <p class="text-muted">Creative Director</p>
+                  <img src="<?php echo base_url();?>assets/images/users/user.png" alt="" class="img-responsive profile-photo" />
+                  <h3>Shahriar Rahman</h3>
+                  <p class="text-muted">Software Developer</p>
                 </div>
               </div>
               <div class="col-md-9">
@@ -101,8 +101,8 @@
                   <li><a href="<?php echo base_url()?>site/timeline-friends" class="<?php if($activeMenu === 'timeline_friends') echo 'active';?>">Friends</a></li>
                 </ul>
                 <ul class="follow-me list-inline">
-                  <li>1,299 people following her</li>
-                  <li><button class="btn-primary">Add Friend</button></li>
+                  <li>1,299 people following his</li>
+                  <li><button class="btn-primary">Edit</button></li>
                 </ul>
               </div>
             </div>
@@ -111,7 +111,7 @@
           <!--Timeline Menu for Small Screens-->
           <div class="navbar-mobile hidden-lg hidden-md">
             <div class="profile-info">
-              <img src="<?php echo base_url();?>assets/images/users/user-1.jpg" alt="" class="img-responsive profile-photo" />
+              <img src="<?php echo base_url();?>assets/images/users/user.png" alt="" class="img-responsive profile-photo" />
               <h4>Sarah Cruiz</h4>
               <p class="text-muted">Creative Director</p>
             </div>

@@ -37,7 +37,7 @@
         <div class="row">
         	<div class="col-sm-5">
             <div class="intro-texts">
-            	<h1 class="text-white">Make Cool Friends !!!</h1>
+            	<h1 class="text-white">Study Assistance!!!</h1>
             	<p>Friend Finder is a social network template that can be used to connect people. The template offers Landing pages, News Feed, Image/Video Feed, Chat Box, Timeline and lot more. <br /> <br />Why are you waiting for? Buy it now.</p>
               <button class="btn btn-primary">Learn More</button>
             </div>

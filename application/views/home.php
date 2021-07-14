@@ -51,7 +51,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?php echo base_url()?>home"><img src="<?php echo base_url();?>assets/images/logo-black.png" alt="logo" /></a>
+            <a class="navbar-brand" href="<?php echo base_url()?>home"><h4>Study Assistance</h4></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -110,15 +110,15 @@
             <div id="chat-block">
               <div class="title">Chat online</div>
               <ul class="online-users list-inline">
-                <li><a href="newsfeed-messages.html" title="Linda Lohan"><img src="<?php echo base_url();?>assets/images/users/user-2.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
-                <li><a href="newsfeed-messages.html" title="Sophia Lee"><img src="<?php echo base_url();?>assets/images/users/user-3.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
-                <li><a href="newsfeed-messages.html" title="John Doe"><img src="<?php echo base_url();?>assets/images/users/user-4.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
-                <li><a href="newsfeed-messages.html" title="Alexis Clark"><img src="<?php echo base_url();?>assets/images/users/user-5.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
-                <li><a href="newsfeed-messages.html" title="James Carter"><img src="<?php echo base_url();?>assets/images/users/user-6.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
-                <li><a href="newsfeed-messages.html" title="Robert Cook"><img src="<?php echo base_url();?>assets/images/users/user-7.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
-                <li><a href="newsfeed-messages.html" title="Richard Bell"><img src="<?php echo base_url();?>assets/images/users/user-8.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
-                <li><a href="newsfeed-messages.html" title="Anna Young"><img src="<?php echo base_url();?>assets/images/users/user-9.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
-                <li><a href="newsfeed-messages.html" title="Julia Cox"><img src="<?php echo base_url();?>assets/images/users/user-10.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="Linda Lohan"><img src="<?php echo base_url();?>assets/images/users/user.png" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="Sophia Lee"><img src="<?php echo base_url();?>assets/images/users/user.png" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="John Doe"><img src="<?php echo base_url();?>assets/images/users/user.png" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="Alexis Clark"><img src="<?php echo base_url();?>assets/images/users/user.png" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="James Carter"><img src="<?php echo base_url();?>assets/images/users/user.png" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="Robert Cook"><img src="<?php echo base_url();?>assets/images/users/user.png" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="Richard Bell"><img src="<?php echo base_url();?>assets/images/users/user.png" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="Anna Young"><img src="<?php echo base_url();?>assets/images/users/user.png" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="Julia Cox"><img src="<?php echo base_url();?>assets/images/users/user.png" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
               </ul>
             </div><!--chat block ends-->
           </div>
@@ -141,37 +141,37 @@
             <div class="suggestions" id="sticky-sidebar">
               <h4 class="grey">Who to Follow</h4>
               <div class="follow-user">
-                <img src="<?php echo base_url();?>assets/images/users/user-11.jpg" alt="" class="profile-photo-sm pull-left" />
+                <img src="<?php echo base_url();?>assets/images/users/user.png" alt="" class="profile-photo-sm pull-left" />
                 <div>
-                  <h5><a href="timeline.html">Diana Amber</a></h5>
+                  <h5><a href="timeline.html">Swapnil Musa</a></h5>
                   <a href="#" class="text-green">Add friend</a>
                 </div>
               </div>
               <div class="follow-user">
-                <img src="<?php echo base_url();?>assets/images/users/user-12.jpg" alt="" class="profile-photo-sm pull-left" />
+                <img src="<?php echo base_url();?>assets/images/users/user.png" alt="" class="profile-photo-sm pull-left" />
                 <div>
-                  <h5><a href="timeline.html">Cris Haris</a></h5>
+                  <h5><a href="timeline.html">Rayed Tuhin</a></h5>
                   <a href="#" class="text-green">Add friend</a>
                 </div>
               </div>
               <div class="follow-user">
-                <img src="<?php echo base_url();?>assets/images/users/user-13.jpg" alt="" class="profile-photo-sm pull-left" />
+                <img src="<?php echo base_url();?>assets/images/users/user.png" alt="" class="profile-photo-sm pull-left" />
                 <div>
-                  <h5><a href="timeline.html">Brian Walton</a></h5>
+                  <h5><a href="timeline.html">Nibir Ahmed</a></h5>
                   <a href="#" class="text-green">Add friend</a>
                 </div>
               </div>
               <div class="follow-user">
-                <img src="<?php echo base_url();?>assets/images/users/user-14.jpg" alt="" class="profile-photo-sm pull-left" />
+                <img src="<?php echo base_url();?>assets/images/users/user.png" alt="" class="profile-photo-sm pull-left" />
                 <div>
-                  <h5><a href="timeline.html">Olivia Steward</a></h5>
+                  <h5><a href="timeline.html">Sharif Hossain</a></h5>
                   <a href="#" class="text-green">Add friend</a>
                 </div>
               </div>
               <div class="follow-user">
-                <img src="<?php echo base_url();?>assets/images/users/user-15.jpg" alt="" class="profile-photo-sm pull-left" />
+                <img src="<?php echo base_url();?>assets/images/users/user.png" alt="" class="profile-photo-sm pull-left" />
                 <div>
-                  <h5><a href="timeline.html">Sophia Page</a></h5>
+                  <h5><a href="timeline.html">Nayem Shohag</a></h5>
                   <a href="#" class="text-green">Add friend</a>
                 </div>
               </div>
