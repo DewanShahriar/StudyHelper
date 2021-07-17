@@ -112,7 +112,7 @@
           <div class="navbar-mobile hidden-lg hidden-md">
             <div class="profile-info">
               <img src="<?php echo base_url();?>assets/images/users/user.png" alt="" class="img-responsive profile-photo" />
-              <h4>Sarah Cruiz</h4>
+              <h4>Shahriar Cruiz</h4>
               <p class="text-muted">Creative Director</p>
             </div>
             <div class="mobile-menu">
@@ -144,28 +144,28 @@
           
             <div class="col-md-2 static">
               <div id="sticky-sidebar">
-                <h4 class="grey">Sarah's activity</h4>
+                <h4 class="grey">Shahriar's activity</h4>
                 <div class="feed-item">
                   <div class="live-activity">
-                    <p><a href="#" class="profile-link">Sarah</a> Commended on a Photo</p>
+                    <p><a href="#" class="profile-link">Shahriar</a> Commended on a Photo</p>
                     <p class="text-muted">5 mins ago</p>
                   </div>
                 </div>
                 <div class="feed-item">
                   <div class="live-activity">
-                    <p><a href="#" class="profile-link">Sarah</a> Has posted a photo</p>
+                    <p><a href="#" class="profile-link">Shahriar</a> Has posted a photo</p>
                     <p class="text-muted">an hour ago</p>
                   </div>
                 </div>
                 <div class="feed-item">
                   <div class="live-activity">
-                    <p><a href="#" class="profile-link">Sarah</a> Liked her friend's post</p>
+                    <p><a href="#" class="profile-link">Shahriar</a> Liked her friend's post</p>
                     <p class="text-muted">4 hours ago</p>
                   </div>
                 </div>
                 <div class="feed-item">
                   <div class="live-activity">
-                    <p><a href="#" class="profile-link">Sarah</a> has shared an album</p>
+                    <p><a href="#" class="profile-link">Shahriar</a> has shared an album</p>
                     <p class="text-muted">a day ago</p>
                   </div>
                 </div>

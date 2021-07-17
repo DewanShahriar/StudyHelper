@@ -53,11 +53,11 @@
                     <div class="line-divider"></div>
                     <div class="post-comment">
                       <img src="<?php echo base_url();?>assets/images/users/user.png" alt="" class="profile-photo-sm" />
-                      <p><a href="timeline.html" class="profile-link">Swapnil </a><i class="em em-laughing"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+                      <p><a href="timeline.html" class="profile-link">Swapnil </a><i class="em em-laughing"></i> Congrats</p>
                     </div>
                     <div class="post-comment">
                       <img src="<?php echo base_url();?>assets/images/users/user.png" alt="" class="profile-photo-sm" />
-                      <p><a href="timeline.html" class="profile-link">John</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+                      <p><a href="timeline.html" class="profile-link">John</a> Congratulations</p>
                     </div>
                     <div class="post-comment">
                       <img src="<?php echo base_url();?>assets/images/users/user.png" alt="" class="profile-photo-sm" />
@@ -73,7 +73,7 @@
 
                 <!--Post Date-->
                 <div class="post-date hidden-xs hidden-sm">
-                  <h5>Sarah</h5>
+                  <h5>Shahriar</h5>
                   <p class="text-grey">10/22/2016</p>
                 </div><!--Post Date End-->
 
@@ -82,7 +82,7 @@
                   <img src="<?php echo base_url();?>assets/images/users/user.png" alt="user" class="profile-photo-md pull-left" />
                   <div class="post-detail">
                     <div class="user-info">
-                      <h5><a href="timeline.html" class="profile-link">Sarah Cruiz</a> <span class="following">following</span></h5>
+                      <h5><a href="timeline.html" class="profile-link">Shahriar</a> <span class="following">following</span></h5>
                       <p class="text-muted">Yesterday</p>
                     </div>
                     <div class="reaction">
@@ -116,7 +116,7 @@
 
                 <!--Post Date-->
                 <div class="post-date hidden-xs hidden-sm">
-                  <h5>Sarah</h5>
+                  <h5>Shahriar</h5>
                   <p class="text-grey">10/21/2016</p>
                 </div><!--Post Date End-->
 
@@ -124,7 +124,7 @@
                   <img src="<?php echo base_url();?>assets/images/users/user-1.jpg" alt="user" class="profile-photo-md pull-left" />
                   <div class="post-detail">
                     <div class="user-info">
-                      <h5><a href="timeline.html" class="profile-link">Sarah Cruiz</a> <span class="following">following</span></h5>
+                      <h5><a href="timeline.html" class="profile-link">Shahriar Rahman</a> <span class="following">following</span></h5>
                       <p class="text-muted">2 days ago</p>
                     </div>
                     <div class="reaction">

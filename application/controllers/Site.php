@@ -28,17 +28,11 @@ class Site extends CI_Controller {
     //home page view
 	public function index()
 	{
-		
 		$user_id = $_SESSION['user_id'];
-		
  		$all_post_list = $this->SiteModel->get_all_posts();
-
  		$post_list = array();
-
  		foreach ($all_post_list as $value) {
-
             $temppost = array();
-            
             $temppost['id']            = $value->id;
             $temppost['user_id']       = $value->user_id;
             $temppost['content']       = $value->content;
@@ -55,17 +49,10 @@ class Site extends CI_Controller {
 	                                    where post_id="'.$value->id.'" 
 	                                    and user_id = "'.$user_id.'"')->num_rows();
             $temppost['comments']      = $this->SiteModel->get_comments($value->id);
-
             array_push($post_list, $temppost);
- 
-            
+    
         }
-
         $data['post_list'] = json_decode(json_encode($post_list));
-
-        // echo "<pre>";
-        // print_r($data['post_list']);
-        // exit;
 
         $data['title']   = 'home';
  		$data['content'] = 'newsfeed';
